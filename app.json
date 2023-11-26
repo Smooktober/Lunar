@@ -1,0 +1,7 @@
+{
+    "name": "Lunar",
+    "description": "A web proxy service prioritizing simplicity, sleekness, customization, and functionality.",
+    "repository": "https://github.com/smooktober/Lunar",
+    "logo": "replace",
+    "keywords": ["tomp", "ultraviolet", "dynamic", "proxy"]
+}
