@@ -116,42 +116,11 @@
 <p>Nebula Services (.gg/unblocker)</p>
 <br><hr>
 <h2>Version Info:</h2>
-  <br>
-  <h3>Current Installation</h3>
-  <p id="version-info">Loading...</p>
-  <br>
-  <h3>A detailed changelog can be found in the Saturn Network Discord Server.</h3>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', async function () {
-      const currentVersionElement = document.getElementById('version-info');
-
-      // Fetch the latest version from an external source (e.g., GitHub API)
-      const latestVersion = await fetchLatestVersion();
-
-      // Update the version information
-      const currentVersion = 'v0.0.0'; // Replace with your current version
-      updateVersionInfo(currentVersion, latestVersion);
-    });
-
-    async function fetchLatestVersion() {
-  const response = await fetch('https://api.github.com/repos/Smooktober/Lunar/releases/latest');
-  const data = await response.json();
-  return data.tag_name;
-}
-
-
-    function updateVersionInfo(currentVersion, latestVersion) {
-      const isUpToDate = currentVersion === latestVersion;
-
-      // Update the version information text
-      const versionText = isUpToDate
-        ? `${currentVersion} (Up-to-date)`
-        : `${currentVersion} (${latestVersion} updates behind current)`;
-
-      document.getElementById('version-info').textContent = versionText;
-    }
-  </script>
+<br>
+<h3>Current Installation</h3>
+<p>v0.0.0 (Update 3, Published 00/00/0000)</p>
+<br>
+<h3>A detailed changelog can be found in the Saturn Network Discord Server.</h3>
 <br>
 <hr>
 
